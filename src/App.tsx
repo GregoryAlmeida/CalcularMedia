@@ -3,7 +3,7 @@ import Input from './Component/Input/Input'
 import './App.css'
 
 interface IConteudo {
-  id: number;
+  id: `${string}-${string}-${string}-${string}-${string}`;
   topico: string;
   valor: number;
 }
@@ -17,11 +17,11 @@ function App() {
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault()
 
-    if (topico.trim() === '' || valor.trim() === '') return
+    if (valor.trim() === '') return
     setTopico('')
     setValor('')
     setConteudo([...conteudo, {
-      id: conteudo.length,
+      id: crypto.randomUUID(),
       topico: topico,
       valor: Number(valor),
     }])
@@ -29,7 +29,11 @@ function App() {
     setResultado(resultado + Number(valor))
   }
 
- 
+ const handleDelete = (id: string,valor: number) => {
+  conteudo.splice(conteudo.findIndex(item => item.id === id), 1)
+  setConteudo([...conteudo])
+  setResultado(resultado - valor)
+ }
 
   return (
     <form onSubmit={handleSubmit}>
@@ -39,23 +43,26 @@ function App() {
         <Input 
           label='Topico'
           type='text' 
+          placeholder='Ex: Notas...'
           value={topico} 
           onChange={({currentTarget}) => setTopico(currentTarget.value)}
         />
         <Input 
           label='Valor'
           type='number'
+          placeholder='Ex: 8...'
           value={valor}
           onChange={({currentTarget}) => setValor(currentTarget.value)}
         />
-        <button>Adicionar</button>
+        <button>Inserir</button>
       </section>
       <section className='section-topico'>
         <div className='span-topico'>
         {conteudo.map(({id, topico, valor}) => (
-          <span key={id}>
+          <span key={valor}>
           <h1>{topico}</h1>
           <p>Valor: {valor}</p>
+          <button className='deletar' onClick={() => handleDelete(id, valor)} >X</button>
         </span>))}
       </div>
       <div className='span-media'>
