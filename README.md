@@ -18,6 +18,8 @@ A media é calculada assim que o segundo valor for inserido e sempre em tempo re
 
 Esse botão faz a exclusão apenas do valor que ele se refere e também corrige o calculo da media automaticamente.
 
+https://github.com/user-attachments/assets/e42c4a32-d6de-4983-9d6e-fe6de06a644a
+
 
 
 
