@@ -14,10 +14,13 @@ No primeiro tópico é apenas o nome e não é necessário informar, no segundo 
 
 A media é calculada assim que o segundo valor for inserido e sempre em tempo real.
 
-# Botão de excluir valor
+# Botão de excluir valor ![image](https://github.com/user-attachments/assets/1a9eceff-7e84-4180-8285-628a93059695)
 
 Esse botão faz a exclusão apenas do valor que ele se refere e também corrige o calculo da media automaticamente.
 
-![image](https://github.com/user-attachments/assets/1a9eceff-7e84-4180-8285-628a93059695)
+https://github.com/user-attachments/assets/cd635ee4-adb9-4aa2-b903-aa96012bb0f2
+
+
+
 
 
