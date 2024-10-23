@@ -2,7 +2,7 @@
 
 Esse projeto conta com 2 inputs para o usuário inserir o tópico e o valor que será calculado,
 
-![image](https://github.com/user-attachments/assets/77a58422-eaeb-4c17-8b99-6481888e1490)
+![HitPawOnline_1250](https://github.com/user-attachments/assets/a6f89d1f-04cf-41cf-8143-2fa21d9978f0)
 
 No primeiro tópico é apenas o nome e não é necessário informar, no segundo é o valor a ser calculado e é sim necessário.
 
