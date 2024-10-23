@@ -10,7 +10,7 @@ No primeiro tópico é apenas o nome e não é necessário informar, no segundo 
 
 É importante entender que o programa calcula a media dos valores assim que receber mais de 1 valor, segue o exemplo abaixo:
 
-https://github.com/user-attachments/assets/880f3eb5-44fc-48e3-99b1-fcf52bdb4763
+![HitPawOnline_05858](https://github.com/user-attachments/assets/0fc752c2-3b0b-4c7c-ba92-4b5d72c24892)
 
 A media é calculada assim que o segundo valor for inserido e sempre em tempo real.
 
@@ -18,7 +18,8 @@ A media é calculada assim que o segundo valor for inserido e sempre em tempo re
 
 Esse botão faz a exclusão apenas do valor que ele se refere e também corrige o calculo da media automaticamente.
 
-https://github.com/user-attachments/assets/e42c4a32-d6de-4983-9d6e-fe6de06a644a
+![HitPawOnline_05826](https://github.com/user-attachments/assets/745c3b07-44c9-4891-a3ca-e571d09b149c)
+
 
 
 
